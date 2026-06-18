@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBB</title>
+</head>
+<body>
+  <form action="index.php" method = "POST" enctype = "multipart/form-data">
+    <label for = "username"> Username : </label>  
+    <input type = "text" id ="username" placeholder ="Boing Boing" minlength ="8" maxlength = "15" required>
+    <br> 
+    <br>
+
+    <label for = "password"> Password : </label>  
+    <input type = "password" id = "Password" placeholder = "Bing Bing" minlength ="8" maxlength = "15" required>
+    <br> 
+    <br>
+    <label for = "Email"> Email : </label> 
+    <input type = "email" id = "email" placeholder = "@gmail.com" required>
+    <br>
+    <br>
+    <label for = "Phone"> Phone : </label> 
+    <input type = "Tel" id = "Phone" placeholder = "+977" required pattern="[0-9]{10}">
+    <br>
+    <br>
+    <label for = "Title"> Title :</label>
+    <input type = "radio" id ="Mr" name = "R">
+    <label for = "Mr."> Mr. </label> 
+    <input type = "radio" id ="Ms." name = "R">
+    <label for = "Ms. "> Ms. </label> 
+    <input type = "radio" id ="TTT" name = "R">
+    <label for = "tRIPPLE t"> Tripple t </label> 
+    <br><br>
+    <label for = "Payment "> Payment </label> 
+    <select>
+        <option value = "Visa">Visa</option>
+         <option value = "Mastercard">Mastercard</option>
+          <option value = "Giftcard">Giftcard</option>
+    </select>
+
+    <br><br>
+    <label for = "comment " style="position : relative; bottom :17px;"> Comment:  </label> 
+        <textarea id ="comment" rows="3" cols="25"></textarea>
+    <br><br>
+    <label for ="file">File:</label>
+    <input type = "File" id ="file" accept = "image/png, image/jpeg, audio/wav">
+    <br><Br>
+    <input type = "reset" style = "margin-right: 5px" > 
+    <input type = "submit" value ="submit to who?"> 
+  </form>
+</body>
+</html>

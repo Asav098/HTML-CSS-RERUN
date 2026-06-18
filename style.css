@@ -1,0 +1,56 @@
+
+#raj{
+    text-shadow: 3px 5px 5px red, -3px -3px 5px ;
+}
+body{
+            background-color : white;
+            border: 10px dotted;
+            display: flow-root;
+            
+           
+        ;
+        }
+main{
+            color : rebeccapurple;
+            margin-left: 10px;
+        }
+#f{
+    color : grey;
+    font-family: Arial;
+    border-left : 10px dotted blue;
+    border-right : 10px dotted blue;
+    border-top: 5px solid tomato;
+    border-bottom: 5px solid tomato;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#p1{
+    color :green;
+    font-family: verdana;
+}     
+ 
+#p2{
+    color :gold;
+    font-family: Helvetica;
+    
+} 
+
+#p3{
+    color : royalblue;
+    font-family: "lucida console";
+} 
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color : beige;
+    margin-left: 10px;
+    box-shadow : 3px 3px 5px;
+    margin-right: auto;
+    float : left;
+    margin-right: 10px;
+    margin-bottom:20px;
+    
+}
+
