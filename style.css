@@ -3,10 +3,13 @@
     text-shadow: 3px 5px 5px red, -3px -3px 5px ;
 }
 body{
-            background-color : white;
-            border: 10px dotted;
+            background-image : url(images.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-attachment:fixed;
+            border: 10px dotted azure;
             display: flow-root;
-            
+            background-size:cover;
            
         ;
         }
@@ -15,7 +18,7 @@ main{
             margin-left: 10px;
         }
 #f{
-    color : grey;
+    color : azure;
     font-family: Arial;
     border-left : 10px dotted blue;
     border-right : 10px dotted blue;
@@ -24,20 +27,26 @@ main{
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 100px;
+    overflow: auto;
+    text-shadow: 2px 2px 3px black;
 }
 #p1{
-    color :green;
+    color :cornsilk;
     font-family: verdana;
+    text-shadow: 2px 2px 3px black;
 }     
  
 #p2{
     color :gold;
     font-family: Helvetica;
+    text-shadow: 2px 2px 3px black;
     
 } 
 
 #p3{
-    color : royalblue;
+    color :honeydew;
+    text-shadow: 2px 2px 3px black;
     font-family: "lucida console";
 } 
 
@@ -51,6 +60,74 @@ main{
     float : left;
     margin-right: 10px;
     margin-bottom:20px;
+    
+}
+#rl{
+    background-color: teal;
+    display:block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-shadow: 3px 3px 5px black;
+    margin-bottom: 20px;
+    margin-right:10px;
+    color:bisque;
+    
+    
+    }
+#gw{
+    background-color :bisque;
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-shadow: 3px 3px 5px black;
+    margin-bottom: 20px;
+    margin-right:10px;
+    color:teal;
+}
+footer{
+   
+   
+    text-shadow: 3px 5px 5px red, -3px -3px 5px;
+    padding:1px;
+    text-align: center;
+    margin-bottom:0px;
+    color:white;
+   
+}
+*{
+    box-sizing: border-box;
+}
+#container{
+    border:2px solid white;
+}
+#container p{
+    background-color:azure;
+    color:black;
+    padding-left:10px;
+}
+button{
+    padding:0;
+    background:transparent;
+    border:0px;
+    transition: transform 0.2s ease;
+}
+button:hover{
+    transform:scale(1.05);
+    
+
+}
+button:active{
+   transform: rotate(-180deg) scale(0.80);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2)  
+}
+p:hover{
+    background-color:rgb(243, 234, 234, 0.5 );
+    
+    font-size:1.05em;
+    transition: transform 0.2s ease;
+    transform:scale(1.05);
+    font-family: arial;
     
 }
 
