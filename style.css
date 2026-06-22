@@ -38,8 +38,8 @@ main{
 }     
  
 #p2{
-    color :gold;
-    font-family: Helvetica;
+    color : azure;
+   font-family: verdana;
     text-shadow: 2px 2px 3px black;
     
 } 
@@ -124,10 +124,75 @@ button:active{
 p:hover{
     background-color:rgb(243, 234, 234, 0.5 );
     
-    font-size:1.05em;
-    transition: transform 0.2s ease;
-    transform:scale(1.05);
-    font-family: arial;
+    font-size:1.025em;
+    transition: transform 0.5s ease;
+    transform:scale(1.02);
+    
     
 }
 
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#eleme{
+    margin-top:5px;
+    border:2px solid white;
+    color:honeydew;
+    padding-left:10px;
+    text-shadow:2px 2px 3px black;
+    font-family: "lucida console";
+}
+
+li:hover{
+    background-color:rgb(243, 234, 234, 0.5 );
+    
+    font-size:1.05em;
+    transition: transform 0.2s ease;
+    transform:scale(1.05);
+   
+    
+}
+p::selection{
+     background-color:black;
+    color:azure;
+
+}
+li::selection{
+    background-color:black;
+    color:azure;
+
+}
+#fruit li::marker{
+    content :"✅";
+    
+}
+.pagination{
+    text-align:center;
+}
+.pagination a{
+    color: azure;
+    text-decoration:none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color:rgb(243, 234, 234, 0.5 );
+    font-weight:bold;
+    border-radius: 5px;
+
+}
+
+.pagination a:hover:not(.active){
+    background-color:rgb(243, 234, 234, 0.5 );
+    border-radius: 5px;
+}
