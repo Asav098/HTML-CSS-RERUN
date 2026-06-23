@@ -1,0 +1,102 @@
+#Raj{
+    text-shadow: 3px 5px 5px red, -3px -3px 5px ;
+    text-align:center;
+    
+}
+.navbar ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    text-align:center;
+    background-color:pink ;
+    
+    
+}
+.navbar a{
+    text-decoration:none;
+    display:inline;
+    color: cornsilk;
+    text-align: center;
+    display:block;
+    padding: 7px 12px;
+    
+    border: 1px solid rgb(238, 174, 185);
+    box-shadow: 1px 3px 1px rgb(233, 150, 219);
+    
+}
+
+.navbar li{
+    display: inline-block;
+    
+}
+
+body{
+            background-image : url(../images/images.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-attachment:fixed;
+            
+            display: flow-root;
+            background-size:cover;
+            
+           
+        ;
+        }
+
+li:hover{
+    background-color:rgb(243, 234, 234, 0.5 );
+    
+    font-size:1.05em;
+    transition: transform 0.2s ease;
+    transform:scale(1.05);
+   
+    
+}
+
+li:active{
+    transform:scale(0.95);
+    transition: transform 0.2s ease;
+}
+#sponge{
+    color:burlywood;
+    text-shadow: 2px 2px 3px black;
+}
+#jana {
+    margin-bottom:0px;
+    padding-left:35px;
+    
+}
+#sub{
+    margin-top:0px;
+    padding-left:35px;
+}
+#boxer{
+    color:cornsilk;
+    width:750px;
+    text-align:center;
+    margin:0 auto;
+    border: 1px solid ;
+    padding: 10px;
+    
+}
+main{
+    margin:35px;
+    text-align:center;
+    align-items: center;
+}
+.parag{
+    font-size:18px;
+    text-shadow: 2px 2px 3px black;
+    
+}
+#bob{
+    float: right;
+    margin-left:10px;
+    margin-right:150px;
+    border-radius:8px;
+    width:400px;
+    height:433px;
+    
+
+}

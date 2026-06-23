@@ -1,3 +1,37 @@
+#Raj{
+    text-shadow: 3px 5px 5px red, -3px -3px 5px ;
+    text-align:center;
+    
+}
+
+
+.navbar ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    text-align:center;
+    
+    
+}
+.navbar a{
+    text-decoration:none;
+    display:inline;
+    color: cornsilk;
+    text-align: center;
+    display:block;
+    padding: 7px 12px;
+    
+    border: 1px solid rgb(238, 174, 185);
+    box-shadow: 1px 3px 1px rgb(233, 150, 219);
+}
+
+.navbar li{
+    display: inline-block;
+    
+}
+
+
 .pagination{
     text-align:center;
 }
@@ -21,7 +55,7 @@
 }
 
 body{
-    background-image:url(images.jpg);
+    background-image : url(../images/images.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-attachment:fixed;
