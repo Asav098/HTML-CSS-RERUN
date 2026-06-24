@@ -39,6 +39,7 @@ body{
             
             display: flow-root;
             background-size:cover;
+            text-align:center;
             
            
         ;
@@ -82,6 +83,7 @@ li:active{
 }
 main{
     margin:35px;
+    
     
 }
 .parag{
