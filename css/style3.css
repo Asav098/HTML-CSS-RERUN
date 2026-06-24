@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 #Raj{
     text-shadow: 3px 5px 5px red, -3px -3px 5px ;
     text-align:center;
@@ -19,7 +23,7 @@
     display:inline;
     color: cornsilk;
     text-align: center;
-    
+    display:block;
     padding: 7px 12px;
     
     border: 1px solid rgb(238, 174, 185);
@@ -30,14 +34,11 @@
     display: inline-block;
     
 }
-.navbar li a:hover, .dropdown button:hover{
-    transform:scale(1.1);
-    transition: transform 0.5s ease;
-    display:inline-block;
-}
+
 
 .pagination{
     text-align:center;
+    clear:both;
 }
 .pagination a{
     color: azure;
@@ -68,22 +69,10 @@ body{
 }
 
 .dropdown button {
-    
-    
-    
+    background-color:rgb(199, 194, 194);
+    padding: 10px 15px;
+    border:none;
     cursor:pointer;
-    background-color:pink;
-    font-family:arial;
-    display:inline;
-    color: cornsilk;
-    text-align: center;
-    
-    padding: 7px 12px;
-    
-    border: 1px solid rgb(238, 174, 185);
-    box-shadow: 1px 3px 1px rgb(233, 150, 219);
-     
-    
 }
 
 .dropdown a{
@@ -94,10 +83,10 @@ body{
 
 }
 .dropdown .content{
-    background-color:pink;
+    background-color:rgb(32, 32, 32);
     display:none;
     position: absolute;
-    
+    min-width:100px;
     box-shadow: 2px 2px 5px rgb(44, 42, 42, 0.8);
 }
 
@@ -105,81 +94,46 @@ body{
     display:block;
 }
 
-
+.dropdown:hover button{
+    background-color: rgb(153, 150, 150,0.9);
+}
+.dropdown a:hover{
+    background-color: rgb(153, 150, 150,0.7);
+}
 .dropdown{
     display:inline;
-    
-    
 }
 
-.gallery{
-    display:inline-block;
-    border:1px solid white;
-    margin:5px;
-    width:200px;
-    
-    
-    
-    
-}
-.gallery .description{
+aside{
+    width:20%;
+    float:left;
     padding:10px;
-    text-align:center;
-    
 }
-
-.gallery:hover{
-    border:1px solid black;
-    transition: transform 0.2s ease;
-    transform:scale(1.05);
-}
-.gallery img{
-    width:100%;
-    height:auto;
-}
-
-#poke{
+section{
+    width:40%;
     float:left;
-    margin-left:20px;
-    margin-right:20px;
+    padding:10px;
 }
-#pokedesc, #spamdesc, #locodesc{
-    padding-left:30px;
-    padding-right:30px;
-    padding-bottom:10px;
-    display:flex;
-    flex-direction:column;
-    
-}
-#loco{
-    float:right;
-    margin-left:20px;
-    margin-right:20px;
-}
-
-#spam{
+article{
+    width:40%;
     float:left;
-    margin-left:20px;
-    margin-right:20px;
-}
-
-.container{
-    border: 1px solid white;
-    margin:20px;
-    padding:25px;
-}
-
-#pokedesc:hover, #locodesc:hover, #spamdesc:hover{
-     background-color:rgb(243, 234, 234, 0.5 );
+    padding:10px;
     
-    font-size:1.05em;
-    transition: transform 0.2s ease;
-    transform:scale(1.05);
-    
-
+}
+footer{
+   display:block;
+   clear:both;
+   
+    text-shadow: 3px 5px 5px red, -3px -3px 5px;
+    padding:1px;
+    text-align: center;
+    margin-bottom:0px;
+    color:white;
+   
 }
 
-html{
-    scroll-behavior:smooth;
+@media screen and (max-width:600px){
+    aside, section, article {
+        width:100%;
+    }
 }
-
