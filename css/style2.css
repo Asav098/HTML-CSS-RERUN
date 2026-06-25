@@ -65,6 +65,19 @@ body{
     background-attachment:fixed;
     background-size:cover;
     color:azure;
+    
+}
+
+footer{
+   
+   
+    text-shadow: 3px 5px 5px red, -3px -3px 5px;
+    padding:1px;
+    text-align: center;
+    margin-bottom:0px;
+    color:white;
+    margin-top:20px;
+   
 }
 
 .dropdown button {
@@ -149,6 +162,8 @@ body{
     padding-bottom:10px;
     display:flex;
     flex-direction:column;
+    text-shadow: 2px 2px 3px black;
+    
     
 }
 #loco{
