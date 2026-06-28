@@ -39,7 +39,8 @@ body{
             
             display: flow-root;
             background-size:cover;
-            text-align:center;
+            
+            margin: 0px;
             
            
         
@@ -63,18 +64,21 @@ footer{
 .box{
     width:150px;
     height:150px;
-    font-size:8em;
-   text-align: center;
-   border-radius:15px;
+    
+   
+  
 }
 #box1{
     background-color:white;
-       animation-name: slideleft;
-    animation-duration:2s;
-    animation-iteration-count:2;
-    animation-direction:alternate;
-    animation-play-state: running;
-    animation-timing-function: cubic-bezier(0,4.65,0,.15);
+    width: 50%;
+    height: 70%;
+    margin-left:50px ;
+    margin-top: 50px;
+    display:flex;
+    flex-direction:column;
+    gap:0px;
+    padding-left:150px;
+    padding-right:100px;
     
     
 }
@@ -82,58 +86,97 @@ footer{
 
 #box2{
     background-color:purple;
+    margin-right:50px ;
+    margin-top: 50px;
+    width: 50%;
+    height: 70%;
 }
-#box3{
-    background-color:green;
-}
-#box4{
-    background-color:pink;
-}
+
 
 .container{
     display:flex;
     flex-direction: row;
+    justify-content:space-between;
     
-    border:10px solid black;
     height: 90vh;
     
     
     
 }
 
-@keyframes slideleft{
-    from{transform: translateX(300%)}
+#conticon{
+    display:inline-flex;
+    border:1px solid grey;
+    padding:6px;
+    border-radius:10px;
+    align-self:flex-start;
+    margin-top:50px;
+    
 }
-@keyframes slideright{
-    to{transform: translateX(300%)}
-}
-@keyframes slideup{
-    from{transform: translateY(300%)}
-}
-@keyframes slidedown{
-    to{transform: translateY(300%)}
-}
-@keyframes rotate{
-    50%{transform: rotateZ(360deg)}
-}
-@keyframes grow{
-    50%{transform: scale(1.9)}
-}
-@keyframes shrink{
-    50%{transform: scale(0.5)}
-}
-@keyframes opacity{
-    100%{opacity:0}
-}
-@keyframes colorchange{
-    0%{background-color:blue;}
-    20%{background-color:pink;}
-    40%{background-color:grey;}
-    50%{background-color:white;}
-    70%{background-color:aquamarine;}
-    90%{background-color:cornsilk;}
-}
-@keyframes glowblow{
-    50%{box-shadow:0px 0px 50px red}
+#help{
+    font-size:2em;
+    display:flex;
+    gap:10px;
 
+    
+
+}
+#help h1{
+    margin:0px;
+    margin-top:10px;
+    justify-content:center;
+    flex-direction:column;
+    display:flex;
+}
+#help p{
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-left:25px;
+}
+
+.vertical-line {
+  border-left: 2px solid #8b8787; 
+  height: 300px;                 
+  margin: 0 20px;                 
+}
+
+#info{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:12px;
+}
+.inside{
+    display:flex;
+    flex-direction:column;
+}
+#info{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-top:30px;
+    
+}
+.mail{
+    display:flex;
+    
+
+}
+.fa-envelope{
+    
+    padding:7px;
+}
+.fa-phone{
+    
+    padding:7px;
+}
+.fa-location-crosshairs{
+    
+    padding:7px;
+}
+.headtit{
+    opacity:60%;
+    font-size:90%
 }
