@@ -30,16 +30,17 @@
                 </P></div>
                 <div id="info">
                     <div class="mail"><i class="fa-regular fa-envelope" ></i>
-                    <div class="inside">
-                        <div class="headtit"> Email: </div>
-                        <div>spongebob@gmail.com</div>
-                    </div>
+                        <div class="inside">
+                            <div class="headtit"> Email: </div>
+                            <div>spongebob@gmail.com</div>
+                        </div>
                     </div>
                     <div class="mail"><i class="fa-solid fa-phone"></i>
-                    <div class="inside">
-                        <div class="headtit"> Phone: </div>
-                        <div>+977 98XXXXXXXX</div>
-                    </div></div>
+                        <div class="inside">
+                            <div class="headtit"> Phone: </div>
+                            <div>+977 98XXXXXXXX</div>
+                        </div>
+                    </div>
                     <div class="mail"><i class="fa-solid fa-location-crosshairs"></i>
                     <div class="inside">
                         <div class="headtit"> Location: </div>
@@ -47,7 +48,43 @@
                     </div></div>
                 </div>
             </div>
-            <div class="box" id="box2">2</div>
+            <div class="box" id="box2">
+                <form id="secbox" action: index.php method="POST" enctype = "multipart/form-data">
+                    <div id="names">
+                        <div class="name">
+                            <label for="First Name">First Name: </label>
+                            <input type="text" id="fname" placeholder="Enter first name">
+                        </div>
+                        
+                        <div class="name">
+                            <label for="Last Name">Last Name: </label>
+                            <input type="text" id="lname" placeholder="Enter last name">
+                        </div>
+                    </div>
+                    <br>
+                    <div id="mailbox">
+                    <label for="Email">Email: </label>
+                    <input type="email" id="Email" placeholder="Enter Email">
+                    </div>
+                    <br>
+                    <div id="phonebox">
+                    <label for="phone">Phone: </label>
+                    <input type = "Tel" id = "Phone" placeholder = "+977" required pattern="[0-9]{10}">
+                    </div>
+                    <br>
+                    <div id="mbox">
+                    <label for="message">Message: </label>
+                        <textarea id="message" rows="12" col="25" placeholder="Enter a question,feedback or suggestions..."></textarea>
+                    </div>    
+                    <div id="submitbox">
+                    
+                    <button><input type = "Submit" value = "Submit" ></button>
+                    </div>
+
+                </form>
+
+
+            </div>
            
             
         </div>
